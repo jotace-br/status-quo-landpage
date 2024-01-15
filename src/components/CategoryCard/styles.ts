@@ -7,8 +7,9 @@ export const StyledCard = styled(Card)`
   border-radius: 0;
 
   img {
+    width: 240px;
+    height: 240px;
     object-fit: cover;
-    aspect-ratio: 1/1;
   }
 
   img:hover {

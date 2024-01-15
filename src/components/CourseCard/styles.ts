@@ -33,8 +33,6 @@ export const RateContainer = styled.div`
   align-items: center;
   gap: 4px;
 
-  line-height: 1.375rem;
-
   p:nth-child(1) {
     font-size: 1rem;
     font-weight: 600;
@@ -45,8 +43,7 @@ export const RateContainer = styled.div`
     color: rgba(0, 0, 0, 0.45);
   }
 
-  :where(.css-dev-only-do-not-override-i1mju1).ant-rate
-    .ant-rate-star:not(:last-child) {
+  .ant-rate .ant-rate-star:not(:last-child) {
     margin-inline-end: 0px;
   }
 `;

@@ -23,6 +23,7 @@ export const OpinionAuthorContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 0.75em;
 
   color: ${(p) => p.theme.colors.textColorBlack};
 
@@ -53,7 +54,6 @@ export const OpinionAuthorContainer = styled.div`
 
   @media screen and (max-width: 768px) {
     align-items: center;
-    gap: 0.75rem;
 
     div {
       flex-direction: column;

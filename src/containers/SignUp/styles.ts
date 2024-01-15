@@ -65,7 +65,6 @@ export const LeftContent = styled.div`
     font-size: 0.813rem;
     letter-spacing: 2%;
     width: 95%;
-    justify-content: center;
   }
 
   @media screen and (max-width: 1024px) {
@@ -74,6 +73,9 @@ export const LeftContent = styled.div`
 
     h1 {
       letter-spacing: normal;
+    }
+    p {
+      justify-content: center;
     }
   }
 `;

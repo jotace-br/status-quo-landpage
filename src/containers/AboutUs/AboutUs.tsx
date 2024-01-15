@@ -26,11 +26,9 @@ export const AboutUs = () => {
       </TitleSubtitleContainer>
 
       <IllustrationCardsWrapper>
-        <img
-          className='img-laptop'
-          src={notebookIllustration}
-          alt='Notebook Illustration'
-        />
+        <div className='img-laptop'>
+          <img src={notebookIllustration} alt='Notebook Illustration' />
+        </div>
 
         <CardsContainer>
           <BenefitCard

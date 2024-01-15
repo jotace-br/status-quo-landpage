@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App.tsx';
-import './index.css';
 import { ThemeProvider } from 'styled-components';
+import App from './App.tsx';
 import { ScrollContextProvider } from './contexts/ScrollContext.tsx';
+import './index.css';
 
 const theme = {
   colors: {
@@ -17,6 +17,7 @@ const theme = {
     textColorBlack: '#0F0F0F',
     textSecondary: '#7E7E7E',
     bg: '#ECECEC',
+    bgSecondary: '#e5e5e5',
   },
 };
 

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 export const StyledCard = styled(Card)`
   min-width: 240px;
+  background: ${(p) => p.theme.colors.white};
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
 
   img {

@@ -1,0 +1,16 @@
+{
+  "name": "Status Quo",
+  "short_name": "Courses",
+  "description": "Unlock your potential with expert-led courses for personal and professional growth.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3000B8",
+  "icons": [
+    {
+      "src": "/images/U.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

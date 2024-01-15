@@ -11,7 +11,7 @@ interface OpinionProps {
 export const Opinion = ({ photo, opinion, author, role }: OpinionProps) => (
   <Container>
     <div>
-      <Avatar size={200} src={photo} />
+      <Avatar size={200} src={photo} alt={`${author} from ${role}`} />
     </div>
     <OpinionAuthorContainer>
       <h1>“{opinion}”</h1>

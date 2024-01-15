@@ -37,9 +37,9 @@ export const FirstSection = () => {
             EXPLORE PATH
           </ExplorePathBtn>
           <Avatar.Group>
-            <StyledAvatar src={firstUser} />
-            <StyledAvatar src={secondUser} />
-            <StyledAvatar src={thirdUser} />
+            <StyledAvatar src={firstUser} alt='happy man' />
+            <StyledAvatar src={secondUser} alt='happy leonardo dicaprio' />
+            <StyledAvatar src={thirdUser} alt='happy woman' />
           </Avatar.Group>
           <div>
             <Rate className='stars' disabled allowHalf defaultValue={4.5} />

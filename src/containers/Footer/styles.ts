@@ -74,7 +74,7 @@ export const LinksWrapper = styled.section`
 `;
 
 export const LinkContainer = styled.div`
-  h5 {
+  h1 {
     font-size: 1.125rem;
     font-weight: 500;
     margin-bottom: 1em;
@@ -99,7 +99,7 @@ export const SocialContainer = styled.div`
   display: flex;
   flex-direction: column;
 
-  h5 {
+  h1 {
     font-size: 1.125rem;
     font-weight: 500;
     margin-bottom: 1em;

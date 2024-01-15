@@ -10,6 +10,23 @@ import {
 
 export const AboutUs = () => {
   const { aboutUsRef } = useScrollContext();
+  const cards = [
+    {
+      title: 'Tailored Learning Experience',
+      subtitle:
+        'Our courses are crafted to meet your unique needs, providing a personalized and effective learning journey.',
+    },
+    {
+      title: 'Expert Instructors',
+      subtitle:
+        'Learn from industry professionals and experts who are dedicated to guiding you through practical insights and real-world applications.',
+    },
+    {
+      title: 'Versatile Course Selection',
+      subtitle:
+        "Choose from a diverse range of courses catering to various interests and skill levels, ensuring there's something valuable for everyone.",
+    },
+  ];
 
   return (
     <Container ref={aboutUsRef}>
@@ -31,18 +48,9 @@ export const AboutUs = () => {
         </div>
 
         <CardsContainer>
-          <BenefitCard
-            title='Tailored Learning Experience'
-            subtitle='Our courses are crafted to meet your unique needs, providing a personalized and effective learning journey.'
-          />
-          <BenefitCard
-            title='Expert Instructors'
-            subtitle='Learn from industry professionals and experts who are dedicated to guiding you through practical insights and real-world applications.'
-          />
-          <BenefitCard
-            title='Versatile Course Selection'
-            subtitle="Choose from a diverse range of courses catering to various interests and skill levels, ensuring there's something valuable for everyone."
-          />
+          {cards.map(({ title, subtitle }, index) => (
+            <BenefitCard key={index} title={title} subtitle={subtitle} />
+          ))}
         </CardsContainer>
       </IllustrationCardsWrapper>
     </Container>

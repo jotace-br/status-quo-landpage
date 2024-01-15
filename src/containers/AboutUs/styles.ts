@@ -23,11 +23,11 @@ export const TitleSubtitleContainer = styled.div`
 
   h1 {
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 1.1526rem + 0.8421vw, 2.5rem);
   }
 
   p {
-    font-size: 1rem;
+    font-size: clamp(1rem, 0.9754rem + 0.1404vw, 1.2rem);
   }
 `;
 

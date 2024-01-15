@@ -4,7 +4,7 @@ import { TitleAndSubtitle } from '@/components/TitleAndSubtitle';
 import { useScrollContext } from '@/contexts/ScrollContext';
 import { ICourse } from '@/types/Course';
 import { SwiperSlide } from 'swiper/react';
-import { CardsContainer, Container, MobileContainer } from './styles';
+import { Container } from './styles';
 
 export const PopularCourses = () => {
   const { coursesRef } = useScrollContext();
@@ -65,6 +65,33 @@ export const PopularCourses = () => {
     },
   ];
 
+  const breakpoints = {
+    600: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    900: {
+      slidesPerView: 3,
+      spaceBetween: 10,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 20,
+    },
+    1400: {
+      slidesPerView: 5,
+      spaceBetween: 10,
+    },
+    1920: {
+      slidesPerView: 6,
+      spaceBetween: 10,
+    },
+    2560: {
+      slidesPerView: 6,
+      spaceBetween: 0,
+    },
+  };
+
   return (
     <Container ref={coursesRef}>
       <TitleAndSubtitle
@@ -73,40 +100,22 @@ export const PopularCourses = () => {
           Knowledge Punch!'
       />
 
-      <CardsContainer>
+      <CustomCarousel breakpoints={breakpoints}>
         {courses.map((course, index) => (
-          <CourseCard
-            key={index}
-            photo={course.photo}
-            title={course.title}
-            instructor={course.instructor}
-            rateValue={course.rateValue}
-            totalStudents={course.totalStudents}
-            price={course.price}
-            hasDiscount={course?.hasDiscount}
-            originalPrice={course?.originalPrice}
-          />
+          <SwiperSlide key={index}>
+            <CourseCard
+              photo={course.photo}
+              title={course.title}
+              instructor={course.instructor}
+              rateValue={course.rateValue}
+              totalStudents={course.totalStudents}
+              price={course.price}
+              hasDiscount={course?.hasDiscount}
+              originalPrice={course?.originalPrice}
+            />
+          </SwiperSlide>
         ))}
-      </CardsContainer>
-
-      <MobileContainer>
-        <CustomCarousel>
-          {courses.map((course, index) => (
-            <SwiperSlide key={index}>
-              <CourseCard
-                photo={course.photo}
-                title={course.title}
-                instructor={course.instructor}
-                rateValue={course.rateValue}
-                totalStudents={course.totalStudents}
-                price={course.price}
-                hasDiscount={course?.hasDiscount}
-                originalPrice={course?.originalPrice}
-              />
-            </SwiperSlide>
-          ))}
-        </CustomCarousel>
-      </MobileContainer>
+      </CustomCarousel>
     </Container>
   );
 };

@@ -27,7 +27,9 @@ export const CourseCard = ({
     cover={<img src={photo} alt={title} />}
   >
     <TitleAndInstructor>
-      <h1>{title}</h1>
+      <Tooltip title={title}>
+        <h1>{truncateString(title, 25)}</h1>
+      </Tooltip>
       <Tooltip title={instructor}>
         <p>{truncateString(instructor, 25)}</p>
       </Tooltip>

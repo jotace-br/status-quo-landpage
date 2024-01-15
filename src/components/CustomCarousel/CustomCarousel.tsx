@@ -28,10 +28,10 @@ export const CustomCarousel: React.FC<SwiperProps> = ({
         enabled: true,
       }}
       breakpoints={breakpoints}
-      // autoplay={{
-      //   delay: 5000,
-      //   disableOnInteraction: false,
-      // }}
+      autoplay={{
+        delay: 5000,
+        disableOnInteraction: false,
+      }}
       pagination={{
         clickable: true,
       }}

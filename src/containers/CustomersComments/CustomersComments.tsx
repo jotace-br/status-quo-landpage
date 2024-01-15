@@ -48,10 +48,29 @@ export const CustomersComments = () => {
     },
   ];
 
+  const breakpoints = {
+    1024: {
+      slidesPerView: 2,
+      spaceBetween: 10,
+    },
+    1366: {
+      slidesPerView: 3,
+      spaceBetween: 20,
+    },
+    1920: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    2560: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
+  };
+
   return (
     <Container>
       <h1 className='title'>What our customers are saying</h1>
-      <CustomCarousel>
+      <CustomCarousel breakpoints={breakpoints}>
         {opinions.map(({ photo, opinion, author, role }, index) => (
           <SwiperSlide key={index}>
             <Opinion

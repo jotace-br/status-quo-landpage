@@ -7,21 +7,31 @@ import 'swiper/css/pagination';
 import { ReactNode } from 'react';
 import './styles.css';
 
+interface SlideConfig {
+  slidesPerView: number;
+  spaceBetween: number;
+}
 export interface SwiperProps {
+  breakpoints?: Record<number, SlideConfig>;
   children: ReactNode;
 }
 
-export const CustomCarousel = ({ children }: SwiperProps) => {
+export const CustomCarousel: React.FC<SwiperProps> = ({
+  breakpoints,
+  children,
+}) => {
   return (
     <Swiper
+      slidesPerView={1}
       centeredSlides={true}
       keyboard={{
         enabled: true,
       }}
-      autoplay={{
-        delay: 5000,
-        disableOnInteraction: false,
-      }}
+      breakpoints={breakpoints}
+      // autoplay={{
+      //   delay: 5000,
+      //   disableOnInteraction: false,
+      // }}
       pagination={{
         clickable: true,
       }}

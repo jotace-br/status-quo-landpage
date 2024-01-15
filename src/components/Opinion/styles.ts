@@ -7,16 +7,19 @@ export const Container = styled.div`
   text-align: center;
   align-items: center;
 
-  min-height: 420px;
-  max-width: 600px;
-  width: fit-content;
-  height: fit-content;
+  height: 600px;
+  width: 600px;
 
   padding: 2em;
   border-radius: 25px;
 
   background: ${(p) => p.theme.colors.white};
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+
+  @media screen and (max-width: 1024px) {
+    width: fit-content;
+    max-width: 600px;
+  }
 `;
 
 export const OpinionAuthorContainer = styled.div`

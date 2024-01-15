@@ -5,11 +5,24 @@
 
 .swiper-slide {
   background: #e5e5e5;
+  /* Avoids strange borders */
+  border: 1px solid #e5e5e5;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
   width: fit-content;
+  height: 100%;
   padding: 2em;
+}
+
+.swiper-wrapper {
+  margin: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper-wrapper {
+    margin: 0;
+  }
 }

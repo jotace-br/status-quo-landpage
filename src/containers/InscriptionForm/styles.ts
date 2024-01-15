@@ -6,9 +6,10 @@ export const Container = styled.section`
   align-items: center;
   text-align: center;
 
-  width: 100%;
+  width: 80%;
 
-  padding: 2em 8em;
+  padding: 2em 0;
+  margin: 0 auto;
 
   h1 {
     font-family: 'Poppins', sans-serif;
@@ -16,19 +17,10 @@ export const Container = styled.section`
     font-size: 2.375rem;
     line-height: 121.053%;
     color: ${(p) => p.theme.colors.blackSecondary};
-  }
-
-  @media screen and (max-width: 768px) {
-    padding: 2em;
+    margin-bottom: 0.5em;
   }
 `;
 
 export const FormContainer = styled.div`
   width: 100%;
-
-  padding: 1em 1em 0;
-
-  @media screen and (max-width: 768px) {
-    padding: 0;
-  }
 `;

@@ -51,8 +51,12 @@ export const LogosContainer = styled.div`
     height: 65px;
   }
 
+  #penn-icon {
+    height: 65px;
+  }
+
   img {
-    height: 125px;
+    max-height: 125px;
   }
 
   @media screen and (max-width: 768px) {
@@ -61,10 +65,6 @@ export const LogosContainer = styled.div`
 
     svg {
       height: 40px;
-    }
-
-    img {
-      height: 80px;
     }
   }
 `;

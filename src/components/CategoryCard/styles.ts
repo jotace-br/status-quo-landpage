@@ -24,7 +24,7 @@ export const StyledCard = styled(Card)`
     border-radius: 0 !important;
   }
 
-  .ant-card-bordered .ant-card-cover .ant-card-body {
+  & > .ant-card-cover {
     margin-top: 0;
     margin-inline-start: 0;
     margin-inline-end: 0;

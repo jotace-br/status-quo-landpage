@@ -6,7 +6,7 @@ export const Container = styled.section`
   background: #d4c5fe;
 
   margin-top: -32px;
-  padding: 4rem 4rem;
+  padding: 4rem;
 
   @media screen and (max-width: 768px) {
     padding: 4rem 2em;
@@ -36,8 +36,22 @@ export const IllustrationCardsWrapper = styled.div`
   justify-content: space-evenly;
   align-items: center;
 
-  gap: 4em;
+  width: 100%;
+  max-width: 1400px;
+
+  margin: 0 auto;
   margin-top: 4em;
+
+  .img-laptop {
+    display: flex;
+    flex: 1;
+
+    img {
+      width: 100%;
+      height: 336px;
+      object-fit: contain;
+    }
+  }
 
   @media screen and (max-width: 1024px) {
     flex-wrap: wrap-reverse;
@@ -58,6 +72,7 @@ export const CardsContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 1;
 
   width: 100%;
 

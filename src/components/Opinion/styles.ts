@@ -15,8 +15,8 @@ export const Container = styled.div`
   padding: 2em;
   border-radius: 25px;
 
-  background: #f2f2f2;
-  /* filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25)); */
+  background: ${(p) => p.theme.colors.white};
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
 `;
 
 export const OpinionAuthorContainer = styled.div`

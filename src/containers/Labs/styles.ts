@@ -20,6 +20,8 @@ export const Container = styled.section`
   margin: 2em 0;
 
   @media screen and (max-width: 1024px) {
+    margin: 0;
+
     flex-wrap: wrap;
     text-align: center;
     gap: 170px;
@@ -35,7 +37,6 @@ export const Container = styled.section`
 
   @media screen and (max-width: 768px) {
     padding: 2em;
-    margin: 0;
   }
 `;
 

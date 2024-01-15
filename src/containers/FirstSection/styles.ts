@@ -17,7 +17,7 @@ export const Container = styled.section`
   position: relative;
   background: white;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1180px) {
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
@@ -29,18 +29,22 @@ export const Container = styled.section`
 
   @media screen and (max-width: 768px) {
     padding: 0 2em;
-    height: 79.5vh;
+    height: fit-content;
+    padding: 1.5em 0;
+
     place-items: center;
-
-    .img-illustration {
-      width: 50dvw;
-    }
   }
+`;
 
-  @media screen and (max-width: 425px) {
-    .img-illustration {
-      width: 75dvw;
-    }
+export const ContentWrapper = styled.div`
+  display: flex;
+  object-fit: cover;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  div:last-child {
+    display: flex;
+    align-items: flex-end;
   }
 `;
 

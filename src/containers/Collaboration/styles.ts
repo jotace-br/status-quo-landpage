@@ -47,16 +47,19 @@ export const LogosContainer = styled.div`
   margin-top: 1.5em;
   gap: 1em;
 
+  svg,
+  img {
+    aspect-ratio: 1/1;
+    width: 125px;
+    object-fit: contain;
+  }
+
   svg {
     height: 65px;
   }
 
   #penn-icon {
     height: 50px;
-  }
-
-  img {
-    max-height: 125px;
   }
 
   @media screen and (max-width: 768px) {

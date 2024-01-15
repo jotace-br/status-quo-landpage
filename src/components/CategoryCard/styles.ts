@@ -6,6 +6,8 @@ export const StyledCard = styled(Card)`
   border: 0;
   border-radius: 0;
 
+  box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
+
   img {
     width: 240px;
     height: 240px;
@@ -22,7 +24,9 @@ export const StyledCard = styled(Card)`
     border-radius: 0 !important;
   }
 
-  .ant-card-body {
-    padding: 0.5em 0;
+  & > .ant-card-cover {
+    margin-top: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
   }
 `;

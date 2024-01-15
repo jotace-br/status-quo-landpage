@@ -24,7 +24,7 @@ const TitleSubtitleContainer = styled.div`
   p {
     font-size: 1.125rem;
     font-weight: 300;
-    line-height: 255.556%;
+    line-height: 150%;
     color: ${(p) => p.theme.colors.blackSecondary};
   }
 

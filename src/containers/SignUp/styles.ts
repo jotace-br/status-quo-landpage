@@ -22,7 +22,7 @@ export const Background = styled.div`
   justify-content: center;
   align-items: center;
 
-  background-image: url(${signUpBg});
+  background: url(${signUpBg});
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -11,8 +11,7 @@ export const PopularCourses = () => {
 
   const courses: ICourse[] = [
     {
-      photo:
-        'https://i.ibb.co/319GWDg/Complete-Guitar-Lessons-System-Beginner-to-Advanced.jpg',
+      photo: 'https://i.ibb.co/VVrKfNq/ezgif-com-optiwebp.webp',
       title: 'Complete Guitar Lessons System - Beginner to Advanced',
       instructor: 'Erich Andreas',
       rateValue: 4.6,
@@ -22,7 +21,7 @@ export const PopularCourses = () => {
     },
     {
       photo:
-        'https://i.ibb.co/4FwTw5M/Productivity-and-Time-Management-for-the-Overwhelmed-2.jpg',
+        'https://i.ibb.co/CJhjRkm/Productivityand-Time-Managementforthe-Overwhelmed2-ezgif-com-optiwebp.webp',
       title: 'Productivity and Time Management for the Overwhelmed',
       instructor: 'Josh Paulsen',
       rateValue: 4.5,
@@ -32,7 +31,7 @@ export const PopularCourses = () => {
     },
     {
       photo:
-        'https://i.ibb.co/jyN59RY/Machine-Learning-A-Z-AI-Python-R-Chat-GPT-Prize.jpg',
+        'https://i.ibb.co/ZXqbNKY/Machine-Learning-A-ZAIPython-RChat-GPTPrize-ezgif-com-jpg-to-webp-converter.webp',
       title: 'Machine Learning A-Z: AI, Python & R + ChatGPT Prize',
       instructor:
         'Kirill Eremenko, Hadelin de Ponteves, SuperDataScience Team, Ligency Team',
@@ -44,7 +43,7 @@ export const PopularCourses = () => {
     },
     {
       photo:
-        'https://i.ibb.co/dfhyxfb/Leonardo-Diffusion-XL-course-illustration-about-javascript-2.jpg',
+        'https://i.ibb.co/7G0m3QD/Leonardo-Diffusion-XL-course-illustration-about-javascript-2-ezgif-com-optiwebp.webp',
       title: 'The Complete JavaScript Course 2024: From Zero to Expert!',
       instructor: 'Jonas Schmedtmann',
       rateValue: 4.7,
@@ -55,7 +54,7 @@ export const PopularCourses = () => {
     },
     {
       photo:
-        'https://i.ibb.co/xLfcvsB/Leonardo-Diffusion-XL-course-illustration-about-instagram-0.jpg',
+        'https://i.ibb.co/Njwr9xt/Leonardo-Diffusion-XL-course-illustration-about-instagram-0-ezgif-com-optiwebp.webp',
       title: 'Instagram Marketing: Complete Guide To Instagram Growth',
       instructor: 'Benjamin Wilson, Entrepreneur Academy',
       rateValue: 4.4,

@@ -8,13 +8,13 @@ export const CustomersComments = () => {
   const opinions: IOpinion[] = [
     {
       photo:
-        'https://i.ibb.co/XWgPTvF/410228176-932270294930570-249126081286619479-n.jpg',
+        'https://i.ibb.co/B3sVccg/410228176-932270294930570-249126081286619479-n-ezgif-com-optiwebp.webp',
       opinion: 'Shape your future with digital mastery on this platform.',
       author: 'Bill Gates',
       role: 'Microsoft',
     },
     {
-      photo: 'https://i.ibb.co/W5fK42V/i490761.jpg',
+      photo: 'https://i.ibb.co/MBR0cbQ/i490761-ezgif-com-optiwebp.webp',
       opinion: 'Turn ideas into wins with this platform.',
       author: 'Steve Jobs',
       role: 'Apple',
@@ -28,7 +28,7 @@ export const CustomersComments = () => {
     },
     {
       photo:
-        'https://i.ibb.co/xscRL9h/carreira-mark-zuckerberg-meta-768x512.jpg',
+        'https://i.ibb.co/BsGCRsb/carreira-mark-zuckerberg-meta-768x512-ezgif-com-jpg-to-webp-converter.webp',
       opinion: 'Nail networking and triumph on this platform.',
       author: 'Mark Zuckerberg',
       role: 'Meta',
@@ -41,7 +41,7 @@ export const CustomersComments = () => {
     },
     {
       photo:
-        'https://i.ibb.co/F6MH9dD/11-mandamentos-de-warren-beffett-para-investir-na-bolsa.jpg',
+        'https://i.ibb.co/MhHxgST/11-mandamentos-de-warren-beffett-para-investir-na-bolsa-ezgif-com-optiwebp.webp',
       opinion: 'Turn wisdom into wealth on this platform.',
       author: 'Warren Buffett',
       role: 'Berkshire Hathaway',

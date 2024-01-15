@@ -1,5 +1,4 @@
 import { DefaultBtn } from '@/components/Button';
-import signUpBg from '@assets/backgrounds/sign-up-bg.svg';
 import styled from 'styled-components';
 
 export const Container = styled.section`
@@ -22,7 +21,8 @@ export const Background = styled.div`
   justify-content: center;
   align-items: center;
 
-  background-image: url(${signUpBg});
+  background-color: ${(p) => p.theme.colors.tertiary};
+  background-image: url('/sign-up-bg.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -1,12 +1,12 @@
 import { BenefitCard } from '@/components/BenefitCard';
+import { useScrollContext } from '@/contexts/ScrollContext';
+import notebookIllustration from '@assets/illustrations/notebook.webp';
 import {
   CardsContainer,
   Container,
   IllustrationCardsWrapper,
   TitleSubtitleContainer,
 } from './styles';
-import notebookIllustration from '@assets/illustrations/notebook.svg';
-import { useScrollContext } from '@/contexts/ScrollContext';
 
 export const AboutUs = () => {
   const { aboutUsRef } = useScrollContext();

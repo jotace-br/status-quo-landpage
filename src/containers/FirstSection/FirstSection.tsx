@@ -1,9 +1,9 @@
 import { useScrollContext } from '@/contexts/ScrollContext';
-import thumbUpIllustration from '@assets/illustrations/first-section-thumbup-man.svg';
+import thumbUpIllustration from '@assets/illustrations/first-section-thumbup-man.webp';
 import primaryLogo from '@assets/logo/primaryLogo.svg';
-import firstUser from '@assets/users/user-one.jpg';
-import thirdUser from '@assets/users/user-three.jpg';
-import secondUser from '@assets/users/user-two.jpg';
+import firstUser from '@assets/users/user-one.webp';
+import thirdUser from '@assets/users/user-three.webp';
+import secondUser from '@assets/users/user-two.webp';
 import { Avatar, Rate } from 'antd';
 import {
   ActionsContainer,

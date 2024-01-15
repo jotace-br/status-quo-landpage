@@ -69,7 +69,6 @@ export const PopularCourses = () => {
   return (
     <Container ref={coursesRef}>
       <TitleAndSubtitle
-        className='title-subtitle'
         title='Popular Courses'
         subtitle='Unleash Your Potential: Join Our Popular Courses and Power Up Your
           Knowledge Punch!'

@@ -40,7 +40,6 @@ export const TopCategories = () => {
   return (
     <Container>
       <TitleAndSubtitle
-        className='title-subtitle'
         title='Top Categories'
         subtitle='Dive into Excellence: Explore Our Top Categories and Elevate Your
         Learning Experience to New Heights!'

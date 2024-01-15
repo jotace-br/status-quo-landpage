@@ -52,7 +52,7 @@ export const LogosContainer = styled.div`
   }
 
   #penn-icon {
-    height: 65px;
+    height: 50px;
   }
 
   img {

@@ -28,13 +28,13 @@ export const Container = styled.div`
 
   h1 {
     font-weight: 600;
-    font-size: 1.3rem;
+    font-size: clamp(1.3rem, 1.2693rem + 0.1754vw, 1.55rem);
     text-transform: uppercase;
   }
 
   p {
     font-family: 'Poppins', sans-serif;
-    font-size: 1rem;
+    font-size: clamp(1rem, 0.9939rem + 0.0351vw, 1.05rem);
     color: #6c6c72;
   }
 `;

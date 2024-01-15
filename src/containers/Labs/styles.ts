@@ -17,11 +17,8 @@ export const Container = styled.section`
   gap: 108px;
 
   padding: 4em;
-  margin: 2em 0;
 
   @media screen and (max-width: 1024px) {
-    margin: 0;
-
     flex-wrap: wrap;
     text-align: center;
     gap: 170px;
@@ -49,7 +46,7 @@ export const LeftContentContainer = styled.div`
 
   h1 {
     font-weight: bold;
-    font-size: 2rem;
+    font-size: clamp(2rem, 1.9386rem + 0.3509vw, 2.5rem);
     margin-bottom: 0.5em;
   }
 
@@ -59,6 +56,7 @@ export const LeftContentContainer = styled.div`
 
   li {
     font-size: 1.125rem;
+    font-size: clamp(1.125rem, 1.0912rem + 0.193vw, 1.4rem);
 
     line-height: 2rem;
     font-weight: 300;
@@ -85,8 +83,7 @@ export const RightContentContainer = styled.div`
     gap: 16px;
 
     h1 {
-      font-size: 2.25rem;
-      font-size: clamp(2rem, 3vw, 2.25rem);
+      font-size: clamp(2.25rem, 2.2193rem + 0.1754vw, 2.5rem);
       font-weight: 500;
       color: black;
       margin-bottom: 1rem;

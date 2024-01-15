@@ -61,6 +61,7 @@ export const LeftContent = styled.div`
 
   h1 {
     font-size: 4rem;
+
     line-height: 75px;
     color: ${(p) => p.theme.colors.primary};
   }

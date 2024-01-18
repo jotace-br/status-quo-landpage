@@ -5,8 +5,8 @@
 
 .swiper-slide {
   background: #e5e5e5;
-  /* Avoids strange borders */
-  border: 0 !important;
+  /* Avoids weird borders */
+  border: 1px solid #e5e5e5 !important;
 
   display: flex;
   justify-content: center;

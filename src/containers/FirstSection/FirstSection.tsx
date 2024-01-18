@@ -21,7 +21,7 @@ export const FirstSection = () => {
     <Container>
       <ContentWrapper>
         <LeftContent>
-          <div>
+          <div className='title-wrapper'>
             <h1>Grow up your skills by online courses with</h1>
             <img
               className='logo'

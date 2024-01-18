@@ -8,7 +8,13 @@ export const Header = () => {
 
   return (
     <HeaderContainer>
-      <img className='logo' src={primaryLogo} alt='statusQuo Logo' />
+      <img
+        className='logo'
+        src={primaryLogo}
+        alt='statusQuo Logo'
+        width='162px'
+        height='32px'
+      />
       <NavLinks>
         <a href='#'>Home</a>
         <button onClick={() => handleClick(aboutUsRef)}>About Us</button>

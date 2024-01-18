@@ -16,12 +16,16 @@ export const HeaderContainer = styled.section`
     width: 162px;
   }
 
-  @media screen and (max-width: 680px) {
+  @media screen and (max-width: 740px) {
     padding: 1.5rem 1em 0;
 
     flex-direction: column;
     height: fit-content;
     gap: 1em;
+
+    .logo {
+      height: 48px;
+    }
   }
 `;
 

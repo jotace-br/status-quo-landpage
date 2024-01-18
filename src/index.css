@@ -33,3 +33,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.ant-comment-avatar img {
+  width: inherit !important;
+  height: inherit !important;
+  border-radius: inherit !important;
+}

@@ -19,7 +19,13 @@ export const Footer = () => (
   <Container>
     <Wrapper>
       <div className='logo'>
-        <img src={whiteLogo} alt='statusQuo Logo' />
+        <img
+          src={whiteLogo}
+          alt='statusQuo Logo'
+          width='101px'
+          height='28.33px'
+          loading='lazy'
+        />
       </div>
 
       <div className='links-social-container'>

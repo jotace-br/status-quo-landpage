@@ -16,6 +16,12 @@ export const Container = styled.div`
   background: ${(p) => p.theme.colors.white};
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.25);
 
+  .photo-author {
+    object-fit: cover;
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+  }
+
   @media screen and (max-width: 1024px) {
     width: fit-content;
     max-width: 600px;

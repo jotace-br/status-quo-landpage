@@ -28,6 +28,7 @@ export const FirstSection = () => {
               src={primaryLogo}
               alt='statusQuo'
               width='471px'
+              height='72.92px'
               loading='lazy'
             />
           </div>
@@ -39,9 +40,13 @@ export const FirstSection = () => {
               EXPLORE PATH
             </ExplorePathBtn>
             <Avatar.Group>
-              <StyledAvatar src={firstUser} alt='happy man' />
-              <StyledAvatar src={secondUser} alt='happy leonardo dicaprio' />
-              <StyledAvatar src={thirdUser} alt='happy woman' />
+              <StyledAvatar size={48} src={firstUser} alt='happy man' />
+              <StyledAvatar
+                size={48}
+                src={secondUser}
+                alt='happy leonardo dicaprio'
+              />
+              <StyledAvatar size={48} src={thirdUser} alt='happy woman' />
             </Avatar.Group>
             <div>
               <Rate className='stars' disabled allowHalf defaultValue={4.5} />
@@ -55,6 +60,9 @@ export const FirstSection = () => {
             className='img-illustration'
             src={thumbUpIllustration}
             alt='Man aproving the platform after using statusQuo'
+            width='471px'
+            height='551px'
+            loading='lazy'
           />
         </div>
       </ContentWrapper>

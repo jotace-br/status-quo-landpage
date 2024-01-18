@@ -85,6 +85,10 @@ export const LeftContent = styled.div`
 
   @media screen and (max-width: 425px) {
     padding: 0 0 1.5em;
+
+    .title-wrapper {
+      padding: 0 1em;
+    }
   }
 `;
 

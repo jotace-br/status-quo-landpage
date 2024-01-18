@@ -67,7 +67,7 @@ export const LogosContainer = styled.div`
     gap: 1em 0em;
 
     svg {
-      height: 40px;
+      margin: 1em 0;
     }
   }
 `;

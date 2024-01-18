@@ -29,7 +29,6 @@ export const FirstSection = () => {
               alt='statusQuo'
               width='471px'
               height='72.92px'
-              loading='lazy'
             />
           </div>
           <ActionsContainer>
@@ -62,7 +61,6 @@ export const FirstSection = () => {
             alt='Man aproving the platform after using statusQuo'
             width='471px'
             height='551px'
-            loading='lazy'
           />
         </div>
       </ContentWrapper>
